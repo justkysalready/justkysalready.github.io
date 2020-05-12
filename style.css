@@ -1,0 +1,551 @@
+html * {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body  {
+	background: #ECEBD9 url(http://0123movies.com/ip.temp/at_008/images/xmas/background.jpg) top repeat-x!important;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+section.header   {
+	background: #fff;
+	height: auto;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
+}
+
+section.header .navbar.navbar-default {
+	margin-bottom: 0;
+	border-radius: 0;
+	background: white;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
+}
+
+section.header .navbar.navbar-default .container-fluid {
+	width: 90%;
+	margin: 0 auto;
+}
+
+section.header .navbar.navbar-default .container-fluid .navbar-header {
+	margin-right: 50px;
+}
+
+section.header .navbar.navbar-default .container-fluid .navbar-header .logo {
+	width: 170px;
+	height: 100%;
+	display: block;
+	padding: 0;
+}
+
+section.header .navbar.navbar-default .container-fluid .navbar-header .logo img {
+	height: 100%;
+	width: 100%;
+}
+
+section.main-content  {
+	height: auto;
+	float: none;
+	margin: 0;
+	width: auto;
+}
+
+@media (max-width: 767px) {
+	section.main-content  {
+		display: none;
+	}
+}
+
+section.main-content .main-content-left {
+	height: 500px;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+section.main-content .main-content-left img {
+	width:100%;
+	height:100%;
+}
+
+section.main-content .main-content-right {
+	display: inline-block;
+	float: left;
+	height: 500px;
+	padding: 0;
+	margin: 0;
+}
+
+section.main-content .main-content-right .topcontent  {
+	display: block;
+	width: 100%;
+	height: 50px;
+}
+
+section.main-content .main-content-right .contentleft  {
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	background: #ED5C57;
+	color:	white;
+	font-size: 14px;
+	text-align: center;
+	padding: 15px;
+}
+
+section.main-content .main-content-right .topcontent .contentright  {
+	width: 60%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	background: black;
+	color:	white;
+	font-size: 14px;
+	text-align: left;
+	padding: 15px;
+}
+
+section.main-content .main-content-right .bottom {
+	width:100%;
+	height:90%;
+	display:block;
+	overflow-y: scroll;
+	clear: both;
+	background: #5f5c5c;
+}
+
+section.main-content .main-content-right .bottom .movie  {
+	height:100px;
+	border-bottom:1px solid #4e4747;
+	background-color: #2f2c2c;
+	font-size: 12px;
+	width: 100%;
+	display: block;
+	margin-bottom: 0;
+}
+
+section.main-content .main-content-right .bottom .movie h3 {
+	color: #ED5C57;
+	margin: 0;
+	font-size: 15px;
+}
+
+section.main-content .main-content-right .bottom .movie p {
+	color: white;
+}
+
+section.main-content .main-content-right .bottom .movie .left {
+	width: 25%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+section.main-content .main-content-right .bottom .movie .left img {
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+}
+
+section.main-content .main-content-right .bottom .movie .right {
+	width: 75%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+	padding: 15px;
+}
+
+section.main-content .main-content-right .bottom .movie .right .drama {
+	color: #ED5C57;
+}
+
+section.main-content .main-content-right .bottom .movie .left1 {
+	width: 25%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+section.main-content .main-content-right .bottom .movie .left1 img {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+
+section.main-content .main-content-right .bottom .movie .right1 {
+	width: 75%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+	padding: 15px;
+}
+
+section.main-content .main-content-right .bottom .movie .right1 .action {
+	color: #ED5C57;
+}
+
+section.main-content .main-content-right .bottom .movie .left2 {
+	width: 25%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+section.main-content .main-content-right .bottom .movie .left2 img {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+
+section.main-content .main-content-right .bottom .movie .right2 {
+	width: 75%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+	padding: 15px;
+}
+
+section.main-content .main-content-right .bottom .movie .right2 .tomb {
+	color: #ED5C57;
+}
+
+section.main-content .main-content-right .bottom .movie .left3 {
+	width: 25%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+section.main-content .main-content-right .bottom .movie .left3 img {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+
+section.main-content .main-content-right .bottom .movie .right3 {
+	width: 75%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+	padding: 15px;
+}
+
+section.main-content .main-content-right .bottom .movie .right3 .drama {
+	color: #ED5C57;
+}
+
+section.main-content .main-content-right .bottom .movie .left4 {
+	width: 25%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+section.main-content .main-content-right .bottom .movie .left4 img {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+
+section.main-content .main-content-right .bottom .movie .right4 {
+	width: 75%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+	padding: 15px;
+}
+
+section.main-content .main-content-right .bottom .movie .right4 .hostile {
+	color: #ED5C57;
+}
+
+section.main-content .main-content-right .bottom .movie .left5 {
+	width: 25%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+section.main-content .main-content-right .bottom .movie .left5 img {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+
+section.main-content .main-content-right .bottom .movie .right5 {
+	width: 75%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+	padding: 15px;
+}
+
+section.main-content .main-content-right .bottom .movie .right5 .awc {
+	color: #ED5C57;
+}
+
+section.main-content .main-content-right .bottom .movie .left6 {
+	width: 25%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+section.main-content .main-content-right .bottom .movie .left6 img {
+	width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+section.main-content .main-content-right .bottom .movie .right6 {
+	width: 75%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+	padding: 15px;
+}
+
+section.main-content .main-content-right .bottom .movie .right6 .em {
+	color: #ED5C57;
+}
+
+section.main-content .social {
+	width: 100%;
+	height: 50px;
+	display: block;
+	background: #fff;
+}
+
+section.main-content .social .social-wrapper {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+section.main-content .social .social-wrapper .like {
+	width: 60px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+section.main-content .social .social-wrapper .like img {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+}
+
+section.main-content .social .social-wrapper .fb {
+	width: 60px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+section.main-content .social .social-wrapper .fb img {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+}
+
+section.main-content .social .social-wrapper .twiter {
+	width: 60px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+section.main-content .social .social-wrapper .twiter img {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+}
+
+section.main-content .social .social-wrapper .gplus {
+	width: 60px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+section.main-content .social .social-wrapper .gplus img {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+}
+
+section.main-content .social .social-wrapper .share {
+	width: 60px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+section.main-content .social .social-wrapper .share img {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+}
+
+section.main-content .social .social-wrapper .count {
+	width: 60px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+section.main-content .social .social-wrapper .count img {
+	width: 100%;
+    height: 100%;
+	padding: 5px;
+}
+
+section.main-content .social .social-wrapper .text {
+	width: 300px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	padding: 15px;
+}
+
+section.movie-wrapper {
+	height: auto;
+	float: none;
+}
+
+section.movie-wrapper .main-content  {
+	height: auto;
+	display: block;
+}
+
+section.movie-wrapper .main-content .title  {
+	width: 100%;
+	height: 80px;
+	display: inline-block;
+}
+
+
+section.movie-wrapper .main-content .title ul  {
+	width: 100%;
+	height: 100%;
+	padding: 25px;
+}
+
+section.movie-wrapper .main-content .title ul li {
+	display: inline-block;
+	float: left;
+	width: 10%;
+}
+
+@media (max-width: 767px) {
+	section.movie-wrapper .main-content .title {
+		background: #ccc;
+	}
+
+	section.movie-wrapper .main-content .title ul li {
+		display: inline-block;
+		float: left;
+		width: auto;
+		padding: 2px;
+	}
+}
+
+section.movie-wrapper .main-content .movie-container {
+	margin-bottom: 60px;
+	display: block;
+}
+
+section.movie-wrapper .main-content .movie-container .movie {
+	height: 300px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+	section.movie-wrapper .main-content .movie-container .movie {
+		width: 19%;
+		margin-right: 5px;
+	}
+}
+
+
+section.movie-wrapper .main-content .movie-container .movie img {
+	 width: 100%;
+	 height: 100%;
+	 display: block;
+}
+
+section.movie-wrapper .main-content .movie-container .movie .mli-info {
+	z-index: 5;
+	border-radius: 0 0 5px 5px;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	opacity: 0.7;
+	bottom: 0;
+	height: auto;
+	padding-left: inherit;
+	padding-right: inherit;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+section.movie-wrapper .main-content .movie-container .movie .mli-info h2 {
+	font-size: 15px;
+	margin: 0;
+	background: #000;
+	height: 40px;
+	line-height: 38px;
+}
+
+footer  {
+	width: 100%;
+	height: auto;
+	display: block;
+	background: #2b7078;
+	padding: 20px 0;
+}
+
+footer .container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+footer .container .left {
+    height: 100%;
+	color: #fff;
+}
+
+footer .container .left .left-one {
+	height: 100%;
+	display: block;
+}
+
+footer .container .left .left-two {
+	height: 100%;
+	display: block;
+}
+
+footer .container .middle  {
+    height: 100%;
+	color: #fff;
+}
+
+footer .container .right {
+    height: 100%;
+	color: #fff;
+}
+
+footer .container .right img {
+	width: 200px;
+	height:75px;
+}
+
+
